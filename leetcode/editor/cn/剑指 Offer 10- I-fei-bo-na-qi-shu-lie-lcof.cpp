@@ -39,10 +39,13 @@
 class Solution {
 public:
     int fib(int n) {
+        if (n <= 0) {
+            return 0;
+        }
         int one = 0;
         int two = 1;
         for (int i = 2; i <= n; i++) {
-            int t = one + two;
+            int t = (one + two) % 1000000007;
             one = two;
             two = t;
         }
