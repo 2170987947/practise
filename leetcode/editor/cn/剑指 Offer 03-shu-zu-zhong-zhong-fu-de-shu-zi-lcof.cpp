@@ -20,6 +20,9 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
+#include <vector>
+#include "unordered_map"
+using namespace std;
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
