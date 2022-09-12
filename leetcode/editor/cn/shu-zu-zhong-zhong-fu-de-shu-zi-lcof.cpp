@@ -18,11 +18,10 @@
 //
 // Related Topics 数组 哈希表 排序 👍 945 👎 0
 
-
-//leetcode submit region begin(Prohibit modification and deletion)
 #include <vector>
 #include "unordered_map"
 using namespace std;
+//leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -40,3 +39,6 @@ public:
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
+int main() {
+    return 0;
+}
