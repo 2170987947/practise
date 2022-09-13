@@ -18,8 +18,7 @@
 // 注意：本题与主站 206 题相同：https://leetcode-cn.com/problems/reverse-linked-list/ 
 //
 // Related Topics 递归 链表 👍 482 👎 0
-
-using namespace std;
+#include "include/headers.h"
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
  * Definition for singly-linked list.
@@ -48,5 +47,8 @@ public:
 int main()
 {
     Solution s;
+    ListNode* head = new ListNode(1);
+    s.reverseList(head);
+    cout << head->val;
     return 0;
 }

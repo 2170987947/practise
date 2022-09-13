@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "practise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bao-han-minhan-shu-de-zhan-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bao-han-minhan-shu-de-zhan-lcof-Debug-2553f551d1c31550ee3f.json",
+					"name" : "bao-han-minhan-shu-de-zhan-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof-Debug-242d42c0d2303cea6fbd.json",
+					"name" : "cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "da-yin-cong-1dao-zui-da-de-nwei-shu-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-da-yin-cong-1dao-zui-da-de-nwei-shu-lcof-Debug-8fbf9309c86fb4d65cb8.json",
+					"name" : "da-yin-cong-1dao-zui-da-de-nwei-shu-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dui-cheng-de-er-cha-shu-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dui-cheng-de-er-cha-shu-lcof-Debug-44a025ffbebb1adf89af.json",
+					"name" : "dui-cheng-de-er-cha-shu-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "er-cha-shu-de-jing-xiang-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-er-cha-shu-de-jing-xiang-lcof-Debug-535952e3f094e3115ea5.json",
+					"name" : "er-cha-shu-de-jing-xiang-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "er-wei-shu-zu-zhong-de-cha-zhao-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-er-wei-shu-zu-zhong-de-cha-zhao-lcof-Debug-e27637eafac66dafc8f7.json",
+					"name" : "er-wei-shu-zu-zhong-de-cha-zhao-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fan-zhuan-lian-biao-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fan-zhuan-lian-biao-lcof-Debug-9fe8ad79b86fb7a3ea10.json",
+					"name" : "fan-zhuan-lian-biao-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fei-bo-na-qi-shu-lie-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fei-bo-na-qi-shu-lie-lcof-Debug-333b95fcba48b2914e58.json",
+					"name" : "fei-bo-na-qi-shu-lie-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "he-bing-liang-ge-pai-xu-de-lian-biao-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-he-bing-liang-ge-pai-xu-de-lian-biao-lcof-Debug-01c57f76228386a23540.json",
+					"name" : "he-bing-liang-ge-pai-xu-de-lian-biao-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello-Debug-c67afb358d1e5e6fe309.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shu-zu-zhong-zhong-fu-de-shu-zi-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shu-zu-zhong-zhong-fu-de-shu-zi-lcof-Debug-66ceb9d73104948ef80d.json",
+					"name" : "shu-zu-zhong-zhong-fu-de-shu-zi-lcof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shun-shi-zhen-da-yin-ju-zhen-lcof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shun-shi-zhen-da-yin-ju-zhen-lcof-Debug-5ab05459ab1e10fa1e6c.json",
+					"name" : "shun-shi-zhen-da-yin-ju-zhen-lcof",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Git/cplusplus/practise/cmake-build-debug",
+		"source" : "D:/Git/cplusplus/practise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

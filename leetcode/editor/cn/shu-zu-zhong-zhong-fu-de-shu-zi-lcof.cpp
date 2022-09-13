@@ -18,8 +18,7 @@
 //
 // Related Topics 数组 哈希表 排序 👍 945 👎 0
 
-#include <vector>
-#include "unordered_map"
+#include "include/headers.h"
 using namespace std;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {

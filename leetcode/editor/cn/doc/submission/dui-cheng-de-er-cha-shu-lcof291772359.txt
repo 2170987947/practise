@@ -1,0 +1,28 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        return isMirror(root.left, root.right);
+    }
+    private boolean isMirror(TreeNode A, TreeNode B) {
+        if (A == null && B == null) {
+            return true;
+        }
+        if (A == null || B == null) {
+            return false;
+        }
+        return A.val == B.val && isMirror(A.left, B.right) && isMirror(A.right, B.left);
+    }
+}
+//runtime:0 ms
+//memory:39.3 MB

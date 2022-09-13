@@ -176,6 +176,278 @@ build er-wei-shu-zu-zhong-de-cha-zhao-lcof.exe: CXX_EXECUTABLE_LINKER__er-wei-sh
   TARGET_IMPLIB = liber-wei-shu-zu-zhong-de-cha-zhao-lcof.dll.a
   TARGET_PDB = er-wei-shu-zu-zhong-de-cha-zhao-lcof.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target fan-zhuan-lian-biao-lcof
+
+
+#############################################
+# Order-only phony target for fan-zhuan-lian-biao-lcof
+
+build cmake_object_order_depends_target_fan-zhuan-lian-biao-lcof: phony || CMakeFiles/fan-zhuan-lian-biao-lcof.dir
+
+build CMakeFiles/fan-zhuan-lian-biao-lcof.dir/leetcode/editor/cn/fan-zhuan-lian-biao-lcof.cpp.obj: CXX_COMPILER__fan-zhuan-lian-biao-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/fan-zhuan-lian-biao-lcof.cpp || cmake_object_order_depends_target_fan-zhuan-lian-biao-lcof
+  DEP_FILE = CMakeFiles\fan-zhuan-lian-biao-lcof.dir\leetcode\editor\cn\fan-zhuan-lian-biao-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\fan-zhuan-lian-biao-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\fan-zhuan-lian-biao-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fan-zhuan-lian-biao-lcof
+
+
+#############################################
+# Link the executable fan-zhuan-lian-biao-lcof.exe
+
+build fan-zhuan-lian-biao-lcof.exe: CXX_EXECUTABLE_LINKER__fan-zhuan-lian-biao-lcof_Debug CMakeFiles/fan-zhuan-lian-biao-lcof.dir/leetcode/editor/cn/fan-zhuan-lian-biao-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fan-zhuan-lian-biao-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fan-zhuan-lian-biao-lcof.exe
+  TARGET_IMPLIB = libfan-zhuan-lian-biao-lcof.dll.a
+  TARGET_PDB = fan-zhuan-lian-biao-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target he-bing-liang-ge-pai-xu-de-lian-biao-lcof
+
+
+#############################################
+# Order-only phony target for he-bing-liang-ge-pai-xu-de-lian-biao-lcof
+
+build cmake_object_order_depends_target_he-bing-liang-ge-pai-xu-de-lian-biao-lcof: phony || CMakeFiles/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir
+
+build CMakeFiles/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir/leetcode/editor/cn/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp.obj: CXX_COMPILER__he-bing-liang-ge-pai-xu-de-lian-biao-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp || cmake_object_order_depends_target_he-bing-liang-ge-pai-xu-de-lian-biao-lcof
+  DEP_FILE = CMakeFiles\he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir\leetcode\editor\cn\he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target he-bing-liang-ge-pai-xu-de-lian-biao-lcof
+
+
+#############################################
+# Link the executable he-bing-liang-ge-pai-xu-de-lian-biao-lcof.exe
+
+build he-bing-liang-ge-pai-xu-de-lian-biao-lcof.exe: CXX_EXECUTABLE_LINKER__he-bing-liang-ge-pai-xu-de-lian-biao-lcof_Debug CMakeFiles/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir/leetcode/editor/cn/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\he-bing-liang-ge-pai-xu-de-lian-biao-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = he-bing-liang-ge-pai-xu-de-lian-biao-lcof.exe
+  TARGET_IMPLIB = libhe-bing-liang-ge-pai-xu-de-lian-biao-lcof.dll.a
+  TARGET_PDB = he-bing-liang-ge-pai-xu-de-lian-biao-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dui-cheng-de-er-cha-shu-lcof
+
+
+#############################################
+# Order-only phony target for dui-cheng-de-er-cha-shu-lcof
+
+build cmake_object_order_depends_target_dui-cheng-de-er-cha-shu-lcof: phony || CMakeFiles/dui-cheng-de-er-cha-shu-lcof.dir
+
+build CMakeFiles/dui-cheng-de-er-cha-shu-lcof.dir/leetcode/editor/cn/dui-cheng-de-er-cha-shu-lcof.cpp.obj: CXX_COMPILER__dui-cheng-de-er-cha-shu-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/dui-cheng-de-er-cha-shu-lcof.cpp || cmake_object_order_depends_target_dui-cheng-de-er-cha-shu-lcof
+  DEP_FILE = CMakeFiles\dui-cheng-de-er-cha-shu-lcof.dir\leetcode\editor\cn\dui-cheng-de-er-cha-shu-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\dui-cheng-de-er-cha-shu-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\dui-cheng-de-er-cha-shu-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dui-cheng-de-er-cha-shu-lcof
+
+
+#############################################
+# Link the executable dui-cheng-de-er-cha-shu-lcof.exe
+
+build dui-cheng-de-er-cha-shu-lcof.exe: CXX_EXECUTABLE_LINKER__dui-cheng-de-er-cha-shu-lcof_Debug CMakeFiles/dui-cheng-de-er-cha-shu-lcof.dir/leetcode/editor/cn/dui-cheng-de-er-cha-shu-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dui-cheng-de-er-cha-shu-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dui-cheng-de-er-cha-shu-lcof.exe
+  TARGET_IMPLIB = libdui-cheng-de-er-cha-shu-lcof.dll.a
+  TARGET_PDB = dui-cheng-de-er-cha-shu-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target da-yin-cong-1dao-zui-da-de-nwei-shu-lcof
+
+
+#############################################
+# Order-only phony target for da-yin-cong-1dao-zui-da-de-nwei-shu-lcof
+
+build cmake_object_order_depends_target_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof: phony || CMakeFiles/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir
+
+build CMakeFiles/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir/leetcode/editor/cn/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp.obj: CXX_COMPILER__da-yin-cong-1dao-zui-da-de-nwei-shu-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp || cmake_object_order_depends_target_da-yin-cong-1dao-zui-da-de-nwei-shu-lcof
+  DEP_FILE = CMakeFiles\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir\leetcode\editor\cn\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target da-yin-cong-1dao-zui-da-de-nwei-shu-lcof
+
+
+#############################################
+# Link the executable da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.exe
+
+build da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.exe: CXX_EXECUTABLE_LINKER__da-yin-cong-1dao-zui-da-de-nwei-shu-lcof_Debug CMakeFiles/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir/leetcode/editor/cn/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.exe
+  TARGET_IMPLIB = libda-yin-cong-1dao-zui-da-de-nwei-shu-lcof.dll.a
+  TARGET_PDB = da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target er-cha-shu-de-jing-xiang-lcof
+
+
+#############################################
+# Order-only phony target for er-cha-shu-de-jing-xiang-lcof
+
+build cmake_object_order_depends_target_er-cha-shu-de-jing-xiang-lcof: phony || CMakeFiles/er-cha-shu-de-jing-xiang-lcof.dir
+
+build CMakeFiles/er-cha-shu-de-jing-xiang-lcof.dir/leetcode/editor/cn/er-cha-shu-de-jing-xiang-lcof.cpp.obj: CXX_COMPILER__er-cha-shu-de-jing-xiang-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/er-cha-shu-de-jing-xiang-lcof.cpp || cmake_object_order_depends_target_er-cha-shu-de-jing-xiang-lcof
+  DEP_FILE = CMakeFiles\er-cha-shu-de-jing-xiang-lcof.dir\leetcode\editor\cn\er-cha-shu-de-jing-xiang-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\er-cha-shu-de-jing-xiang-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\er-cha-shu-de-jing-xiang-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target er-cha-shu-de-jing-xiang-lcof
+
+
+#############################################
+# Link the executable er-cha-shu-de-jing-xiang-lcof.exe
+
+build er-cha-shu-de-jing-xiang-lcof.exe: CXX_EXECUTABLE_LINKER__er-cha-shu-de-jing-xiang-lcof_Debug CMakeFiles/er-cha-shu-de-jing-xiang-lcof.dir/leetcode/editor/cn/er-cha-shu-de-jing-xiang-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\er-cha-shu-de-jing-xiang-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = er-cha-shu-de-jing-xiang-lcof.exe
+  TARGET_IMPLIB = liber-cha-shu-de-jing-xiang-lcof.dll.a
+  TARGET_PDB = er-cha-shu-de-jing-xiang-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target shun-shi-zhen-da-yin-ju-zhen-lcof
+
+
+#############################################
+# Order-only phony target for shun-shi-zhen-da-yin-ju-zhen-lcof
+
+build cmake_object_order_depends_target_shun-shi-zhen-da-yin-ju-zhen-lcof: phony || CMakeFiles/shun-shi-zhen-da-yin-ju-zhen-lcof.dir
+
+build CMakeFiles/shun-shi-zhen-da-yin-ju-zhen-lcof.dir/leetcode/editor/cn/shun-shi-zhen-da-yin-ju-zhen-lcof.cpp.obj: CXX_COMPILER__shun-shi-zhen-da-yin-ju-zhen-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/shun-shi-zhen-da-yin-ju-zhen-lcof.cpp || cmake_object_order_depends_target_shun-shi-zhen-da-yin-ju-zhen-lcof
+  DEP_FILE = CMakeFiles\shun-shi-zhen-da-yin-ju-zhen-lcof.dir\leetcode\editor\cn\shun-shi-zhen-da-yin-ju-zhen-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\shun-shi-zhen-da-yin-ju-zhen-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\shun-shi-zhen-da-yin-ju-zhen-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target shun-shi-zhen-da-yin-ju-zhen-lcof
+
+
+#############################################
+# Link the executable shun-shi-zhen-da-yin-ju-zhen-lcof.exe
+
+build shun-shi-zhen-da-yin-ju-zhen-lcof.exe: CXX_EXECUTABLE_LINKER__shun-shi-zhen-da-yin-ju-zhen-lcof_Debug CMakeFiles/shun-shi-zhen-da-yin-ju-zhen-lcof.dir/leetcode/editor/cn/shun-shi-zhen-da-yin-ju-zhen-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\shun-shi-zhen-da-yin-ju-zhen-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = shun-shi-zhen-da-yin-ju-zhen-lcof.exe
+  TARGET_IMPLIB = libshun-shi-zhen-da-yin-ju-zhen-lcof.dll.a
+  TARGET_PDB = shun-shi-zhen-da-yin-ju-zhen-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bao-han-minhan-shu-de-zhan-lcof
+
+
+#############################################
+# Order-only phony target for bao-han-minhan-shu-de-zhan-lcof
+
+build cmake_object_order_depends_target_bao-han-minhan-shu-de-zhan-lcof: phony || CMakeFiles/bao-han-minhan-shu-de-zhan-lcof.dir
+
+build CMakeFiles/bao-han-minhan-shu-de-zhan-lcof.dir/leetcode/editor/cn/bao-han-minhan-shu-de-zhan-lcof.cpp.obj: CXX_COMPILER__bao-han-minhan-shu-de-zhan-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/bao-han-minhan-shu-de-zhan-lcof.cpp || cmake_object_order_depends_target_bao-han-minhan-shu-de-zhan-lcof
+  DEP_FILE = CMakeFiles\bao-han-minhan-shu-de-zhan-lcof.dir\leetcode\editor\cn\bao-han-minhan-shu-de-zhan-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\bao-han-minhan-shu-de-zhan-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\bao-han-minhan-shu-de-zhan-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bao-han-minhan-shu-de-zhan-lcof
+
+
+#############################################
+# Link the executable bao-han-minhan-shu-de-zhan-lcof.exe
+
+build bao-han-minhan-shu-de-zhan-lcof.exe: CXX_EXECUTABLE_LINKER__bao-han-minhan-shu-de-zhan-lcof_Debug CMakeFiles/bao-han-minhan-shu-de-zhan-lcof.dir/leetcode/editor/cn/bao-han-minhan-shu-de-zhan-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bao-han-minhan-shu-de-zhan-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bao-han-minhan-shu-de-zhan-lcof.exe
+  TARGET_IMPLIB = libbao-han-minhan-shu-de-zhan-lcof.dll.a
+  TARGET_PDB = bao-han-minhan-shu-de-zhan-lcof.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof
+
+
+#############################################
+# Order-only phony target for cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof
+
+build cmake_object_order_depends_target_cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof: phony || CMakeFiles/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir
+
+build CMakeFiles/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir/leetcode/editor/cn/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp.obj: CXX_COMPILER__cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof_Debug D$:/Git/cplusplus/practise/leetcode/editor/cn/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp || cmake_object_order_depends_target_cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof
+  DEP_FILE = CMakeFiles\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir\leetcode\editor\cn\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -ID:/Git/cplusplus/practise/220905
+  OBJECT_DIR = CMakeFiles\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir
+  OBJECT_FILE_DIR = CMakeFiles\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir\leetcode\editor\cn
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof
+
+
+#############################################
+# Link the executable cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.exe
+
+build cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.exe: CXX_EXECUTABLE_LINKER__cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof_Debug CMakeFiles/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir/leetcode/editor/cn/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.exe
+  TARGET_IMPLIB = libcong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.dll.a
+  TARGET_PDB = cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -202,13 +474,29 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build bao-han-minhan-shu-de-zhan-lcof: phony bao-han-minhan-shu-de-zhan-lcof.exe
+
+build cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof: phony cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.exe
+
+build da-yin-cong-1dao-zui-da-de-nwei-shu-lcof: phony da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.exe
+
+build dui-cheng-de-er-cha-shu-lcof: phony dui-cheng-de-er-cha-shu-lcof.exe
+
+build er-cha-shu-de-jing-xiang-lcof: phony er-cha-shu-de-jing-xiang-lcof.exe
+
 build er-wei-shu-zu-zhong-de-cha-zhao-lcof: phony er-wei-shu-zu-zhong-de-cha-zhao-lcof.exe
 
+build fan-zhuan-lian-biao-lcof: phony fan-zhuan-lian-biao-lcof.exe
+
 build fei-bo-na-qi-shu-lie-lcof: phony fei-bo-na-qi-shu-lie-lcof.exe
+
+build he-bing-liang-ge-pai-xu-de-lian-biao-lcof: phony he-bing-liang-ge-pai-xu-de-lian-biao-lcof.exe
 
 build hello: phony hello.exe
 
 build shu-zu-zhong-zhong-fu-de-shu-zi-lcof: phony shu-zu-zhong-zhong-fu-de-shu-zi-lcof.exe
+
+build shun-shi-zhen-da-yin-ju-zhen-lcof: phony shun-shi-zhen-da-yin-ju-zhen-lcof.exe
 
 # =============================================================================
 # Folder targets.
@@ -218,7 +506,7 @@ build shu-zu-zhong-zhong-fu-de-shu-zi-lcof: phony shu-zu-zhong-zhong-fu-de-shu-z
 #############################################
 # Folder: D:/Git/cplusplus/practise/cmake-build-debug
 
-build all: phony shu-zu-zhong-zhong-fu-de-shu-zi-lcof.exe fei-bo-na-qi-shu-lie-lcof.exe hello.exe er-wei-shu-zu-zhong-de-cha-zhao-lcof.exe
+build all: phony shu-zu-zhong-zhong-fu-de-shu-zi-lcof.exe fei-bo-na-qi-shu-lie-lcof.exe hello.exe er-wei-shu-zu-zhong-de-cha-zhao-lcof.exe fan-zhuan-lian-biao-lcof.exe he-bing-liang-ge-pai-xu-de-lian-biao-lcof.exe dui-cheng-de-er-cha-shu-lcof.exe da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.exe er-cha-shu-de-jing-xiang-lcof.exe shun-shi-zhen-da-yin-ju-zhen-lcof.exe bao-han-minhan-shu-de-zhan-lcof.exe cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.exe
 
 # =============================================================================
 # Built-in targets
